@@ -1,0 +1,54 @@
+body {
+    background-image: url(../Images/search-box4.svg);
+    text-align: center;
+}
+
+.edit-box {
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.edit-box div {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+input, textarea {
+    background-color: rgba(255, 255, 255, 0.035);
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(173, 216, 230, 0.293);
+        /* Change this to any color you prefer */
+        border: 1px solid #ccc;
+}
+
+.submit {
+    background-color: #1cb9a9;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+        color: white;
+            background-color: #1C7AB9;
+            text-align: center;
+            padding: 10px 40px;
+            font-size: 18px;
+            letter-spacing: 1.5px;
+            cursor: pointer;
+}

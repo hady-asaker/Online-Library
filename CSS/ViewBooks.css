@@ -1,0 +1,60 @@
+body {
+    background-image: url(../Images/search-box4.svg);
+    text-align: center;
+}
+
+
+.table-container {
+    background-color: white;
+    width: 90%;
+    margin: 70px auto;
+    height: 600px;
+    padding: 27px;
+    overflow: auto;
+    border-radius: 50px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+caption {
+    width: 100%;
+    margin: 5px auto;
+    font-size: 35px;
+        font-family: "Baloo Bhaijaan 2", sans-serif;
+            font-weight: 900;
+            color: #1cb9a9;
+}
+th {
+    background-color: #1cb9a9;
+    border: 1px solid #c0b9a9;
+    padding: 8px;
+    color: white;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 800;
+}
+
+td {
+    border: 1px solid #c0b9a9;
+    padding: 8px;
+        font-family: "Baloo Bhaijaan 2", sans-serif;
+        font-weight: 700;
+        color: #1C7AB9;
+
+}
+
+/* Alternate Row Color */
+tr:nth-child(even) {
+    background-color: white;
+    /* Alternate row color */
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}

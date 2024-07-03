@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../CSS/Login.css" />
+    <link rel="icon" href="../../Images/logo.svg" type="image/icon type" />
+    <title>مكتبة زاد</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="logo">
+        <div class="im"><img src="../../Images/logo.svg" /></div>
+        <h1>مكتبة زاد</h1>
+        <p>مكتبة غير محدودة من الكتب العربية</p>
+      </div>
+      <div class="login-form">
+        <form id="frm" action="UserHome.html">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="اسم المستخدم"
+            required
+          />
+          <input
+            type="password"
+            placeholder="كلمة المرور"
+            name="password"
+            id="password"
+          />
+          <br>
+          <button class="loginbtn" id="log">تسجيل الدخول</button>
+          <br>
+          <span class="newuser"
+            >ليس لديك حساب؟
+            <a href="SignUp.html" class="signupbtn">إنشاء حساب</a></span
+          >
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="../../Java script/user/loginuser.js"></script>
+</html>

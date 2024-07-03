@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    background-color: #1cb9a9;
+    background-image: url(../Images/search-box4.svg);
+    direction: rtl;
+}
+
+.content {
+    background-color: white;
+    width: 30%;
+    height: 550px;
+    color: #1cb9a9;
+    margin: 60px auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+
+.login-form input {
+    border-radius: 4px;
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    margin: 20px auto 20px;
+
+}
+
+.login-form input {
+    font-size: 18px;
+    padding: 3px 3px;
+    outline: none;
+    border: 2px solid rgb(0 0 0/0.20);
+
+}
+
+

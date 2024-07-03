@@ -1,0 +1,55 @@
+.search-box-container {
+    background-image: url(../Images/search-box4.svg);
+    margin-top: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.search-box-container p {
+    margin: 0px;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+
+.search-box {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 14px;
+    border-radius: 28px;
+    margin: auto;
+    background-color: #f6f6f6f6;
+}
+
+.search-input {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: transparent;
+    margin-left: 14px;
+    border: none;
+    outline: none;
+}
+
+
+.search-icon {
+    background-color: #1cb9a9;
+    color: white;
+    padding: 10px;
+    border-radius: 28px;
+    width: 60px;
+    height: 100%px;
+    font-size: 30px;
+}

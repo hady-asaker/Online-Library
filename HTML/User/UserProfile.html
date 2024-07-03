@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../CSS/Header.css" />
+    <link rel="stylesheet" href="../../CSS/Profile.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Baloo+Bhaijaan+2:wght@400..800&family=El+Messiri:wght@400..700&family=Lalezar&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>التسجيل</title>
+  </head>
+  <body>
+    <header class="box">
+      <a href="UserHome.html" class="logo">
+        <div class="logo-image">
+          <img src="../../Images/logo.svg" />
+        </div>
+        <div class="logo-name">
+          <h1>مكتبة زاد</h1>
+        </div>
+      </a>
+      <nav>
+        <div><a href="UserProfile.html">المعلومات الشخصية</a></div>
+        <div><a href="UserViewBooks.html">عرض الكتب</a></div>
+        <div><a href="Borrow.html">الكتب المستعارة</a></div>
+        <div><a href="../HomePage.html">تسجيل الخروج</a></div>
+      </nav>
+    </header>
+    <div class="content">
+      <div class="login-form">
+        <form id="frm" action="UserHome.html">
+          <input
+            type="text"
+            required
+            id="name1"
+            name="name"
+            placeholder="الإسم رباعي"
+            readonly
+            value="سبونج بوب سكوير بانتس"
+          />
+          <input
+            type="email"
+            required
+            id="email"
+            name="email"
+            placeholder="البريد الإلكتروني"
+            readonly
+            value="spongpop@gmail.com"
+          />
+
+          <input
+            type="text"
+            required
+            id="username"
+            name="username"
+            placeholder="إسم المستخدم"
+            minlength="7"
+            maxlength="17"
+            readonly
+            value="sonpg3301"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="../../Java script/user/signup.js"></script>
+</html>

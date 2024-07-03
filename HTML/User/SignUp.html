@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../CSS/Signup.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>التسجيل</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="logo">
+        <div class="im"><img src="../../Images/logo.svg" /></div>
+        <h1>مكتبة زاد</h1>
+        <p>مكتبة غير محدودة من الكتب العربية</p>
+      </div>
+      <div class="login-form">
+        <form id="frm" action="UserHome.html">
+          <input
+            type="text"
+            required
+            id="name1"
+            name="name"
+            placeholder="الإسم رباعي"
+            autofocus
+          />
+          <input
+            type="email"
+            required
+            id="email"
+            name="email"
+            placeholder="البريد الإلكتروني"
+          />
+
+          <input
+            type="text"
+            required
+            id="username"
+            name="username"
+            placeholder="إسم المستخدم"
+            minlength="7"
+            maxlength="17"
+          />
+
+          <input
+            type="password"
+            required
+            id="password"
+            name="password"
+            minlength="7"
+            maxlength="20"
+            placeholder="كلمة المرور"
+          />
+          <button id="log" class="signupbtn">تسجيل الدخول</button>
+        </form>
+      </div>
+      <span class="olduser"
+        >لديك حساب بالفعل؟
+        <a href="UserLogin.html" class="loginbtn">تسجيل الدخول</a></span
+      >
+    </div>
+  </body>
+  <script src="../../Java script/user/signup.js"></script>
+</html>

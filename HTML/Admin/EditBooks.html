@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>مكتبة زاد</title>
+    <link rel="stylesheet" href="../../CSS/Header.css" />
+    <link rel="stylesheet" href="../../CSS/AddBook.css" />
+    <link rel="icon" href="../../Images/logo.svg" type="image/icon type" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Baloo+Bhaijaan+2:wght@400..800&family=El+Messiri:wght@400..700&family=Lalezar&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="box">
+      <a href="AdminHome.html" class="logo">
+        <div class="logo-image">
+          <img src="../../Images/logo.svg" />
+        </div>
+        <div class="logo-name">
+          <h1>مكتبة زاد</h1>
+        </div>
+      </a>
+      <nav>
+        <div><a href="AdminProfile.html">المعلومات الشخصية</a></div>
+        <div><a href="ViewBooks.html">عرض الكتب</a></div>
+        <div><a href="AddBook.html">إضافة كتاب جديد</a></div>
+        <div><a href="../HomePage.html">تسجيل الخروج</a></div>
+      </nav>
+    </header>
+    <form id="frm" class="edit-box">
+      <div>
+        <input
+          type="text"
+          id="book-id"
+          name="book-id"
+          placeholder="معرف الكتاب"
+          value="10"
+        />
+      </div>
+
+      <div>
+        <input
+          type="text"
+          id="book-name"
+          name="book-name"
+          placeholder="إسم الكتاب"
+          value="أرض زيكولا"
+        />
+      </div>
+
+      <div>
+        <input
+          type="text"
+          id="author"
+          name="author"
+          placeholder="اسم الكاتب"
+          value="جعفر العمدة"
+        />
+      </div>
+
+      <div>
+        <input
+          type="text"
+          id="category"
+          name="category"
+          placeholder="التصنيف"
+          value="good"
+        />
+      </div>
+
+      <div>
+        <textarea
+          id="description"
+          name="description"
+          rows="5"
+          placeholder="وصف الكتاب"
+        ></textarea>
+      </div>
+
+      <div><input type="file" id="upbtn" /></div>
+      <div class="lbl"><label for="upbtn">تعديل الغلاف</label></div>
+      <div>
+        <input type="submit" class="submit" id="btn" value="تعديل الكتاب" />
+      </div>
+    </form>
+  </body>
+  <script src="../../Java script/admin/editbook.js"></script>
+</html>
